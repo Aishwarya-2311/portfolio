@@ -13,10 +13,14 @@ import { cn } from "@/lib/utils";
 
 function LogoImage({ src, alt }: { src: string; alt: string }) {
   const [imageError, setImageError] = useState(false);
+  const showFallback = !src || src === "#" || imageError;
+  const initial = alt?.trim()?.[0]?.toUpperCase() ?? "";
 
-  if (!src || imageError) {
+  if (showFallback) {
     return (
-      <div className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border bg-muted flex-none" />
+      <div className="size-8 md:size-10 p-1 border rounded-full shadow ring-2 ring-border bg-muted flex-none flex items-center justify-center text-sm font-semibold text-foreground">
+        {initial}
+      </div>
     );
   }
 
