@@ -76,11 +76,11 @@ export const DATA = {
   work: [
     {
       company: "Pride",
-      href: "https://atomic.finance",
+      href: "#",
       badges: [],
       location: "Work From Office, Pune",
       title: "Web Developer",
-      logoUrl: "/atomic.png",
+      logoUrl: "https://www.linkedin.com/company/pride-events/",
       start: "March 2025",
       end: "Present",
       description:
@@ -88,23 +88,23 @@ export const DATA = {
     },
     {
       company: "Harpa Technologies Private Limited",
-      href: "https://nvidia.com/",
+      href: "https://www.harpa.co.in/",
       badges: [],
       location: "Work From Office, Pune",
       title: "Software Developer",
-      logoUrl: "/nvidia.png",
+      logoUrl: "#",
       start: "Jan 2023",
-      end: "May 2023",
+      end: "Feb 2025",
       description:
         "Assisted in software development activities including requirement analysis, coding, and debugging while collaborating with cross-functional teams. Contributed to the development and maintenance of applications, strengthening foundational skills in software development, teamwork, and communication.",
     },
     {
-      company: "Crypticonic Security",
-      href: "https://splunk.com",
+      company: "Crypticonic Securities",
+      href: "https://crypticonicsec.in/",
       badges: [],
       location: "Work From Home",
       title: "Web Developer",
-      logoUrl: "/splunk.svg",
+      logoUrl: "#",
       start: "May 2022",
       end: "Jul 2022",
       description:
@@ -112,11 +112,11 @@ export const DATA = {
     },
     {
       company: "Indosoft Consultants",
-      href: "https://splunk.com",
+      href: "https://www.linkedin.com/company/indosoft-consultants---india/?originalSubdomain=in",
       badges: [],
       location: "Work From Home",
       title: "Web Designer",
-      logoUrl: "/splunk.svg",
+      logoUrl: "#",
       start: "Nov 2021",
       end: "Jan 2022",
       description:
@@ -128,7 +128,7 @@ export const DATA = {
       school: "Sanjay Ghodawat University",
       href: "https://www.sguk.ac.in/",
       degree: "B.Tech Computer Science",
-      logoUrl: "/buildspace.jpg",
+      logoUrl: "#",
       start: "2019",
       end: "2023",
     },
@@ -136,7 +136,7 @@ export const DATA = {
       school: "Shraddha Modern School & Jr College Kagal",
       href: "https://www.shraddhaschool.edu.in/",
       degree: "HSC in Science",
-      logoUrl: "/waterloo.png",
+      logoUrl: "#",
       start: "2018",
       end: "2019",
     },
@@ -144,16 +144,16 @@ export const DATA = {
       school: "Shrimant Jaysingrao Ghatge High School Kagal",
       href: "https://schools.org.in/kolhapur/27340808815/s-jaysingrao-ghatage-hs-kagal.html#google_vignette",
       degree: "SSC in Semi English",
-      logoUrl: "/laurier.png",
+      logoUrl: "#",
       start: "2016",
-      end: "2027",
+      end: "2017",
     },
   ],
   projects: [
     {
       title: "Harpa Chat",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      href: "#",
+      dates: "Full Stack Developer",
       active: true,
       description:
         "Harpa Chat uses JavaScript, HTML, CSS, and PHP with MySQL, creating a real-time chat application withdynamic functionality and database integration.",
@@ -167,7 +167,7 @@ export const DATA = {
       links: [
       {
       type: "Website",
-      href: "https://chatcollect.com",
+      href: "#",
       icon: <Icons.globe className="size-3" />,
       },
       ],
@@ -177,8 +177,8 @@ export const DATA = {
     },
     {
       title: "Augmented Reality Home Decor Application",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      href: "#",
+      dates: "Frontend Developer",
       active: true,
       description:
         "Built an Augmented Reality Home Decor Application using Java, enabling users to visualise and place virtual frniture and decor items in real- world environments.",
@@ -188,7 +188,7 @@ export const DATA = {
       links: [
       {
       type: "Website",
-      href: "https://chatcollect.com",
+      href: "#",
       icon: <Icons.globe className="size-3" />,
       },
       ],
