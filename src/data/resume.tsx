@@ -171,7 +171,7 @@ export const DATA = {
       icon: <Icons.globe className="size-3" />,
       },
       ],
-      image: "",
+      image: "/harpa.jpeg",
       },
     {
       title: "Augmented Reality Home Decor Application",
@@ -190,7 +190,7 @@ export const DATA = {
       icon: <Icons.globe className="size-3" />,
       },
       ],
-      image: "",
+      image: "/AR-Decor.jpeg",
       },
   ],
   /*
