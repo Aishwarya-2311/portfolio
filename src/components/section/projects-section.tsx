@@ -39,7 +39,6 @@ export default function ProjectsSection() {
                             className="h-full"
                         >
                             <ProjectCard
-                                href={project.href}
                                 key={project.title}
                                 title={project.title}
                                 description={project.description}
