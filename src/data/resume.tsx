@@ -152,7 +152,6 @@ export const DATA = {
   projects: [
     {
       title: "Harpa Chat",
-      href: "#",
       dates: "Full Stack Developer",
       active: true,
       description:
@@ -164,18 +163,17 @@ export const DATA = {
         "PHP",
         "MySQL",
       ],
-      links: [
-      {
-      type: "Website",
-      href: "#",
-      icon: <Icons.globe className="size-3" />,
-      },
-      ],
-      image: "/harpa.jpeg",
+      // links: [
+      // {
+      // type: "Website",
+      // href: "#",
+      // icon: <Icons.globe className="size-3" />,
+      // },
+      // ],
+      image: "/harpa.jpg",
       },
     {
       title: "Augmented Reality Home Decor Application",
-      href: "#",
       dates: "Frontend Developer",
       active: true,
       description:
@@ -183,14 +181,14 @@ export const DATA = {
       technologies: [
         "Java",
       ],
-      links: [
-      {
-      type: "Website",
-      href: "#",
-      icon: <Icons.globe className="size-3" />,
-      },
-      ],
-      image: "/AR-Decor.jpeg",
+      // links: [
+      // {
+      // type: "Website",
+      // href: "#",
+      // icon: <Icons.globe className="size-3" />,
+      // },
+      // ],
+      image: "/AR-Decor.jpg",
       },
   ],
   /*
